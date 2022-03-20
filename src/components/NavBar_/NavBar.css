@@ -1,0 +1,25 @@
+.Navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    background-color: white;
+    height: 100px;
+    width: 100%;
+    ;
+}
+
+.Navbar_Logo{
+    height: 55px;
+}
+
+.Navbar_Cart{
+    height: 30px;
+}
+
+.Navbar_items{
+    display: flex;
+    justify-content: space-between;
+    width: 80vh;
+}
