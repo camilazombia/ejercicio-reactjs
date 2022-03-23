@@ -1,6 +1,6 @@
 import './NavBar.css';
 import Logo  from "../../assets/store.png";
-import Cart from "../../assets/shopping-cart.png";
+import Cart from "../Cart_/Cart.js";
 
 function  NavBar() {
   return (
@@ -11,7 +11,7 @@ function  NavBar() {
     <button> Link 1 </button>
     <button> Link 1 </button>
     </div>
-    <img src={Cart} alt="Cart" className='Navbar_Cart' />
+    <Cart/>
   </header>
   );
 }
