@@ -1,0 +1,34 @@
+.Item_Image{
+    width: 180px;
+}
+
+.Item_Image--img{
+    height: 169px;
+}
+
+.Item_Cart{
+    border: solid 2px #636363;
+    grid-column: 2 / 11;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+
+}
+
+.Item_Trash--img{
+
+    height: 20px;
+
+    
+}
+
+.Item_Trash{
+    position: relative;
+    top: 0;
+    right: 0;
+
+
+    
+}

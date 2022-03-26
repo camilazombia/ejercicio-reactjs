@@ -1,10 +1,20 @@
 import './Cart.css';
-import ShoppingCart from "../../assets/shopping-cart.png";
+import NavBar from '../NavBar_/NavBar';
+import ItemCart from '../../components/ItemCart/ItemCart.js';
 
-function  Cart() {
-  return (
-    <img src={ShoppingCart} alt="Cart" className='Navbar_Cart' />
-  );
-}
 
-export default Cart;
+
+
+function Cart() {
+
+    return (
+      <div className='Cart'>
+        <NavBar/>
+        <h3>TU CARRITO</h3>
+        <ItemCart title="Ramera1" price="90"/>
+        
+      </div>
+  
+    );
+  }
+  export default Cart;

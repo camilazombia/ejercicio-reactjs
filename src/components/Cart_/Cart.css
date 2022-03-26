@@ -1,3 +1,19 @@
-.Navbar_Cart{
-    height: 30px;
+.Cart{
+    background-color: #F2F2F2;
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
+    
+}
+
+
+.Cart H3{
+    font-size: 100px;
+    font-family: din-condensed, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #BCBCBC;
+    grid-column: 1 / 4;
+    text-align: left;
+
+
 }

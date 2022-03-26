@@ -1,23 +1,17 @@
 .Navbar{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
     padding: 20px 0;
-    background-color: white;
-    height: 100px;
-    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(12,1fr);
     ;
 }
 
 .Navbar_Logo{
-    height: 55px;
+    width: auto;
+    height: 30px;
+    grid-column: 1 / 2;
 }
-
-
-
-.Navbar_items{
-    display: flex;
-    justify-content: space-between;
-    width: 80vh;
+    
+    
+.Navbar_Cart{
+    grid-column: 12 / 13;
 }
